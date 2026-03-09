@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>AI Motion Video Generator PRO</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>AI Motion Video Generator</h1>
+<p>Create AI Motion Videos Instantly</p>
+</header>
+
+<div class="main">
+
+<input type="file" id="imageUpload">
+
+<textarea id="prompt"
+placeholder="Example: cinematic camera pan, walking forward, drone shot">
+</textarea>
+
+<button id="generateBtn">
+Generate Motion Video
+</button>
+
+<button id="downloadBtn">
+Download Video
+</button>
+
+<div class="videoBox">
+
+<video id="videoPreview" controls></video>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
